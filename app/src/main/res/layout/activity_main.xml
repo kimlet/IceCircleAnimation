@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cndroid.com.icecircleanimation.MainActivity">
+
+
+    <cndroid.com.icecircleanimation.CircleLineView
+        android:id="@+id/circleLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <View
+        android:id="@+id/view_center"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:visibility="invisible"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle_bg" />
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerInParent="true"
+        android:src="@mipmap/avatar" />
+
+
+    <TextView
+        android:id="@+id/tv_yuehua"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle_violet"
+        android:gravity="center"
+        android:text="约滑"
+        android:textColor="#FFF"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_huodong"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle_pink"
+        android:gravity="center"
+        android:text="活动"
+        android:textColor="#FFF"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_bingquan"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle_green"
+        android:gravity="center"
+        android:text="冰圈"
+        android:textColor="#FFF"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_zhibo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/circle_yellow2"
+        android:gravity="center"
+        android:text="直播"
+        android:textColor="#FFF"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_yueke"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/circle_blue"
+        android:gravity="center"
+        android:text="约课"
+        android:textColor="#FFF"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/tv_huizhang"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/circle_yellow"
+        android:gravity="center"
+        android:text="徽章"
+        android:textColor="#FFF"
+        android:visibility="invisible" />
+
+    <View
+        android:id="@+id/circleGreen"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/circle_green"
+        android:visibility="invisible" />
+
+
+    <View
+        android:id="@+id/circleYellow"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/circle_yellow"
+        android:visibility="invisible" />
+
+    <View
+        android:id="@+id/circleBlue"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/circle_blue"
+        android:visibility="invisible" />
+</RelativeLayout>
